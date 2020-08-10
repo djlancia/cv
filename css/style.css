@@ -4,54 +4,20 @@ html, .container-fluid, .row {
 
 }
 
+
+/*
+light green #158467
+dark green #197163
+darker green #197163
+*/
+
+
 body{
   background-color: #fadcac;
-  color:white;
+  color: black; 
+  font-family: 'Roboto', sans-serif;
 }
 
-a {
-  color:#fbd46d
-}
-
-.profile {
-  border-radius: 50%;
-  width:30%;
-}
-.mycontainer {
-  text-align: center;
-  position: relative;
-  padding-top: 8%;
-}
-
-
-.boxes {
-width: 100px;
-height: 100px;
-position: absolute;
-}
-
-.cloud1, .cloud2 {
-  background: url(../images/cloud.png);
-  background-repeat: no-repeat;
-  height:48px;
-  width:150px;
-  display: inline-block;
-  position: absolute;
-
-}
-
-.cloud1 {
-  left: 300px;
-}
-.cloud2 {
-  left: 200px;
-}
-
-.bigMtn {
-  background: url(../images/mountain.png);
-    background-repeat: no-repeat;
-    height: 357px;
-    width:598px;
-      display: inline-block;
-
+h1 {
+  font-family: 'Great Vibes', cursive;
 }
