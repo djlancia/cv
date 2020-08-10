@@ -1,15 +1,57 @@
-html {
-  margin: auto 0;
+html, .container-fluid, .row {
+  margin:  0;
   padding: 0;
 
 }
 
 body{
-  background-color: #eee;
+  background-color: #fadcac;
+  color:white;
 }
+
+a {
+  color:#fbd46d
+}
+
 .profile {
   border-radius: 50%;
   width:30%;
 }
-.section-id {
-  }
+.mycontainer {
+  text-align: center;
+  position: relative;
+  padding-top: 8%;
+}
+
+
+.boxes {
+width: 100px;
+height: 100px;
+position: absolute;
+}
+
+.cloud1, .cloud2 {
+  background: url(../images/cloud.png);
+  background-repeat: no-repeat;
+  height:48px;
+  width:150px;
+  display: inline-block;
+  position: absolute;
+
+}
+
+.cloud1 {
+  left: 300px;
+}
+.cloud2 {
+  left: 200px;
+}
+
+.bigMtn {
+  background: url(../images/mountain.png);
+    background-repeat: no-repeat;
+    height: 357px;
+    width:598px;
+      display: inline-block;
+
+}
