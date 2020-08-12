@@ -21,3 +21,7 @@ body{
 h1 {
   font-family: 'Great Vibes', cursive;
 }
+
+.nav-item i {
+  color: rgba(255,255,255,.5);
+}
